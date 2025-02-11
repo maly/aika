@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIKA - AI pro média</title>
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="video-container">
+        <!-- Loading overlay -->
+        <div class="loading-overlay">
+            <div class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Načítání...</span>
+            </div>
+        </div>
+
+        <!-- Video background -->
+        <video autoplay muted loop playsinline class="video-background">
+            <source src="https://videos.pexels.com/video-files/20422317/20422317-hd_1920_1080_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Content overlay -->
+        <div class="content-overlay d-flex align-items-center justify-content-center">
+            <div class="text-center">
+                <h1 class="display-1 fw-bold mb-4">AIKA</h1>
+                <h2 class="display-4">AI pro média</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/main.js"></script>
+</body>
+</html>
